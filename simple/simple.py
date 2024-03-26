@@ -12,5 +12,8 @@ def simple_list():
     return alumnos
 
 
-def sort_list():
-    pass
+def sort_list(dicts):
+    
+    alumnos_ordenados = sorted(dicts, key=lambda x:x['age'])
+
+    return alumnos_ordenados
